@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5 {
 	flex-direction: row;
 	padding-top: 30px; 
 	margin: 50px auto;
+	line-height: 1.6rem;
 }
 
 .row2{
@@ -139,6 +140,7 @@ h1, h2, h3, h4, h5 {
 	flex-direction: row;
 	padding-top: 30px; 
 	margin: 50px auto;
+	line-height: 1.6rem;
 }
 .button{
 	padding: 8px;
@@ -147,9 +149,17 @@ h1, h2, h3, h4, h5 {
 }
 
 
+
 .middle-img{
-	margin: 50px 0;
+	margin: 50px auto;
+	text-align: center;
 	
+}
+
+.contact{
+	line-height: 1.6rem;
+	padding-left: 50px;
+	padding-top: 20px;
 }
 
 
@@ -157,4 +167,5 @@ h1, h2, h3, h4, h5 {
 .footer{
 	margin: 20px auto;
 	text-align: center;
+	
 }
