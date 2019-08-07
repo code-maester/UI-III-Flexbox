@@ -63,109 +63,105 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.container{
-	display: flex;
-	flex-direction: column;
-	width: 1024px;
+/* my css properties starts here */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 50px;
+    width: 1024px; */
+    font-size: 17px;
+    width: 1024px;
 	height: 1536px;
-	margin: 0 auto;
-}
-
-.header-section{
-	text-align: center;
-	padding-top: 35px;
-
-}
-
-.header{
-	/* margin: 56px 0px; */
-	display: flex;
-	justify-content: space-evenly;
-	padding: 50px;
-}
-.nav-item{
-	margin-right: 40px;
-	text-decoration: none;
-}
-
-
-.header-cont{
-	width: 50%;
-	float: right;
-
-}
-
-.column{
-	position: relative;
-	left: 400px;
-	bottom: 160px;	
-	width: 400px;
-	padding: 5px;
-}
-.features{
-	width: 450px;
-	float: left;
-	padding-right: 10px;
-}
-
-.features-header{
-	display: inline-block;
-	width: 450px;
-	padding-top: 50px;
-}
-
-.features-header h1{
-	font-size: 82px;
-	text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    
 }
 
 .services{
-    width: 300px;
-    float: right;
-    padding-right: 10px;
-    padding-bottom: 30px;
+    margin: 30px 20px;
+    text-align: justify;
+    line-height: 1.5rem;
 }
 
-.row{
-	display: flex;
-	flex-direction: row;
-	padding-top: 30px; 
-	margin: 50px auto;
-	line-height: 1.6rem;
+.services h2{
+    font-size: 25px;
 }
 
-.row2{
-	display: flex;
-	flex-direction: row;
-	padding-top: 30px; 
-	margin: 50px auto;
-	line-height: 1.6rem;
-}
-.button{
-	padding: 8px;
-	margin-left: 147px;
-	width: 170px;
+hr{
+    border: 1px solid black;
+    height: 3px;
 }
 
-
-
-.middle-img{
-	margin: 50px auto;
-	text-align: center;
-	
+.courses-row{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.contact{
-	line-height: 1.6rem;
-	padding-left: 50px;
-	padding-top: 20px;
+.course-item{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px auto;
+    flex-basis: 45%;
+    line-height: 1.5rem;
+    background-color: lightgray;
+}
+
+.course-item-last{
+    padding: 20px;
+    margin: 50px auto;
+    flex-basis: 45%;
+    line-height: 1.5rem;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    margin: 20px 0px;
+
+
+}
+
+.navigation a{
+    margin-right: 45px;
+    color: gray;
+    font-size: large;
 }
 
 
 
+.logo{
+    position: relative;
+    left: 165px;
+}
+
+.lists{
+    margin-top: 30px;
+}
+
+.list-item{
+    line-height: 2.5rem;
+}
 .footer{
-	margin: 20px auto;
-	text-align: center;
-	
+    margin: 30px auto;
+    text-align: center;
+}
+
+button{
+    width: 134px;
+    height: 38px;
+    margin: 10px 0;
+}
+
+.services-header-img{
+    width: 985px;
+}
+
+li {
+    list-style: square;
+}
+
+ul{
+    margin-left: 18px;
 }
