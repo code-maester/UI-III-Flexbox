@@ -201,8 +201,10 @@ h1, h2, h3, h4, h5 {
 	margin: 5px;
 } 
 
-.product-heading{
-	margin: 29px 0px;
+
+.products-content{
+	line-height: 1.6rem;
+	margin: 20px 0px;
 }
 
 .container-products{
