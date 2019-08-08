@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* my css properties starts here */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 50px;
+    width: 1024px; */
+    font-size: 17px;
+    width: 1024px;
+	height: 1536px;
+    margin: 0 auto;
+    font-size: 17px;
+    
+}
+
+.services{
+    margin: 30px 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.services h2{
+    font-size: 25px;
+}
+
+hr{
+    border: 1px solid black;
+    height: 3px;
+}
+
+.courses-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.course-item{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px auto;
+    flex-basis: 45%;
+    line-height: 1.5rem;
+    background-color: lightgray;
+}
+
+.course-item-last{
+    padding: 20px;
+    margin: 50px auto;
+    flex-basis: 45%;
+    line-height: 1.5rem;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    margin: 20px 0px;
+
+
+}
+
+.navigation a{
+    margin-right: 45px;
+    color: gray;
+    font-size: large;
+}
+
+
+
+.logo{
+    position: relative;
+    left: 165px;
+}
+
+.lists{
+    margin-top: 30px;
+}
+
+.list-item{
+    line-height: 2.5rem;
+}
+.footer{
+    margin: 30px auto;
+    text-align: center;
+}
+
+button{
+    width: 134px;
+    height: 38px;
+    margin: 10px 0;
+}
+
+.services-header-img{
+    width: 985px;
+}
+
+li {
+    list-style: square;
+}
+
+ul{
+    margin-left: 18px;
+}
