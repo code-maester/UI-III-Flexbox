@@ -169,3 +169,47 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	
 }
+
+/* Products page styles */
+
+
+.products-nav-bar {
+	display: none;
+}
+.header-section-products{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 67px;
+	margin-top: 30px;
+	padding: 10px 30px;
+}
+.producs-page-logo{
+
+}
+
+.row-products{
+	display: flex;
+	flex-direction: row;
+	margin: 25px 0px;
+}
+
+.row-products-item{
+	width: 450px;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+} 
+
+.product-heading{
+	margin: 29px 0px;
+}
+
+.container-products{
+	display: flex;
+    flex-direction: column;
+    width: 1024px;
+    height: 1536px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
